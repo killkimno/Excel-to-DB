@@ -75,35 +75,51 @@ namespace ExcelReader
                 var sheet = workbook.GetSheetAt(0);
 
 
+                string boxText = sheet.SheetName + " / " + sheet.LastRowNum;
 
-                richTextBox1.Text = sheet.SheetName + " / " + sheet.LastRowNum;
 
 
-                for(int i = 0; i < sheet.LastRowNum; i++)
+          
+
+                using (StreamWriter newTask = new StreamWriter(@"./resultDB.txt", false))
                 {
-                    IRow curRow = sheet.GetRow(i);
-                    List<ICell> cellList = curRow.Cells;
-
-                    string original = curRow.GetCell(0).StringCellValue;
-
-                    
-
-                    
-                    richTextBox1.Text += "\n" + curRow.GetCell(0).StringCellValue + "   " + curRow.GetCell(1).StringCellValue;
-                }
-
-                using (StreamReader r = new StreamReader(path))
-                {
-                    using (StreamWriter newTask = new StreamWriter(@"./resultDB.txt", false))
+                    for (int i = 0; i < sheet.LastRowNum; i++)
                     {
-                        string line = "";
-                        while ((line = r.ReadLine()) != null)
+                        IRow curRow = sheet.GetRow(i);
+                        List<ICell> cellList = curRow.Cells;
+
+                        string original = cellList[0].StringCellValue;
+                        string translate = original;
+
+                        for (int j = cellList.Count -1; j >=0; j--)
                         {
-                            string[] words = line.Split('\t');
+                            string value = cellList[j].StringCellValue;
+
+                            if(value.Trim() != "")
+                            {
+                                translate = value;
+                                break;
+                            }
                         }
+
+                        if(original.Trim() != "")
+                        {
+                            newTask.WriteLine(@"/s");
+                            newTask.WriteLine(original);
+                            newTask.WriteLine(@"/t");
+                            newTask.WriteLine(translate);
+                            newTask.WriteLine(@"/e" + System.Environment.NewLine);
+
+
+                            boxText += "\n" + curRow.GetCell(0).StringCellValue + "   " + curRow.GetCell(1).StringCellValue;
+                        }
+
+                
                     }
                 }
-           
+
+                richTextBox1.Text = boxText;
+
             }
         }
 
