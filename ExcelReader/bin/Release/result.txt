@@ -1,0 +1,600 @@
+/s
+원문
+/t
+번역 1
+/e
+
+/s
+Cool ! Considering this was a rush Job, it's not half bad! 
+/t
+멋진걸! 후딱 처리한거 치곤 나쁘지 않은데!
+/e
+
+/s
+I removed most of the actual control unit and replaced it with a Raid Eurver cockpit.
+/t
+대부분 제어 유닛은 제거했고 레이드 유러버 콕핏으로 교체한 게 다야.
+/e
+
+/s
+Back when my father, Grato, piloted it, it would wire directly into his nervous system.
+/t
+아빠가 신경계에 연결해 조종했던 거야.
+/e
+
+/s
+but there's no point in doing that for you.
+/t
+하지만 너한텐 별 의미가 없지.
+/e
+
+/s
+It's not a Brood Mare type, huh?
+/t
+응? 이거 브로드 마레 타입 아니야?
+/e
+
+/s
+I couldn't get anything else. Don't appreciate old models, do we?
+/t
+남아 있는 게 없었어. 구형은 별로 달갑지 않은가 보지?
+/e
+
+/s
+No, this is fine. This is the same type I used to pilot in this sims.
+/t
+그럴 리가, 이거 내가 시물레이션 파일럿을 했을 때 하고 똑같은 타입인걸.
+/e
+
+/s
+...In fact, if it had been one of the brand new models, I might not have been able to use it at all...
+/t
+...게다가 난 브로드 마레 타입은 전혀 사용할 줄 모르거든.
+/e
+
+/s
+As long as you control it the way we need you to, I can focus on my job.
+/t
+조종이나 제대로 해, 그래야 내 일에 집중할 수 있어.
+/e
+
+/s
+Give it your all, okay?
+/t
+알겠어?
+/e
+
+/s
+Yeah, leave it to me!
+/t
+맡겨만 줘!
+/e
+
+/s
+...Man, Fio, you're really something. And here I am, still down in the dumps...
+/t
+...피오, 정말로 대단해. 하지만 난 아직도 우울해. 
+/e
+
+/s
+It makes no difference to me.
+/t
+나도 마찬가지야.
+/e
+
+/s
+I may still have memories and some of my biological components, but I'm not human right now.
+/t
+내 몸 일부는 생물학적 구성 요소가 남아 있어, 하지만 난 더 이상 인간이 아니야.
+/e
+
+/s
+I'll use this phenomenon to exact revenge and retake my other half.
+/t
+이렇게 만든 놈들에게 복수해 줄 거야, 그리고 내 누이도 되찾을 거고.
+/e
+
+/s
+I am no more then a device, operating only for that purpose.
+/t
+난 더 이상 단순한 오퍼레이터가 아니지.
+/e
+
+/s
+Hmm... Is that how it is?
+/t
+음... 그런가?
+/e
+
+/s
+Roy Becket, you are the one that the hero Grato entrusted with the mission... It is not a light burden.
+/t
+로이 베켓, 아빠가 너한테 모든 걸 걸었어. 가볍게 여길 일이 아니라고.
+/e
+
+/s
+Right. He's the one who dragged me out of my life in the gutter.
+/t
+맞어. 그라토 씨는 밑바닥 인생이었던 나에게 희망을 준 분이야.
+/e
+
+/s
+I'll prove in this battle that his actions weren't a mistake!
+/t
+그런 분의 얼굴에 먹칠할 순 없지!
+/e
+
+/s
+you can count on it.
+/t
+나만 믿으라고!
+/e
+
+/s
+Hey! Oliga, Hugo!
+/t
+어이! Oliga, Hugo!
+/e
+
+/s
+Unbelievable!! How dare you!? You crazy Filune fiends!
+/t
+믿을 수 없군! Filune 이 미친놈들 뭔 짓을 한 거야!
+/e
+
+/s
+Oliga!! Don't go dying on me! Answer me!!
+/t
+Oliga! 여기서 끝이라고 말하지 마! 대답해!
+/e
+
+/s
+Control to Xbreed. Stand by for launch.
+/t
+여기는 관제실. Xbreed 출격 준비하라.
+/e
+
+/s
+Now transferring you to the catapult deck.
+/t
+갑판 위로 옮기는 중이다.
+/e
+
+/s
+xbreed, copy.
+/t
+알겠다.
+/e
+
+/s
+Opening hatch. Connect to the linear catapult now.
+/t
+해치 여는 중, 발사대에 연결 중.
+/e
+
+/s
+Connected to linear catapult.
+/t
+발사대에 연결 완료.
+/e
+
+/s
+Course is all clear. Launch preparations completed. Handing over launch timing.
+/t
+진로 확보. 출격 준비 완료. 카운트다운을 해주기 바람.
+/e
+
+/s
+Systems all green. Passing control to the pilot... You have-
+/t
+시스템 이상 무. 파일럿 출격-
+/e
+
+/s
+Roger that!! This is Roy Becket, launching in the Xbreed!!
+/t
+알겠습니다! Roy Becket 출격합니다!
+/e
+
+/s
+Man, I can't believe how fast they are!!
+/t
+놀랍군! 정말 빠르잖아.
+/e
+
+/s
+Are you even listening. you imbecile!?
+/t
+이 멍청아, 사람이 말하면 좀 들어!
+/e
+
+/s
+She's off-balance! Now's our chance!
+/t
+무방비 상태야, 지금이 기회야!
+/e
+
+/s
+Your heart hasn't become a machine.
+/t
+내면까지 기계가 된 건 아니잖아.
+/e
+
+/s
+You're a normal girl, doing what she needs to do for her family.
+/t
+그저 가족을 걱정하는 평범한 여자아이라고.
+/e
+
+/s
+Go! Now!
+/t
+지금이다 어서 가라!
+/e
+
+/s
+To complete Lucis...!
+/t
+Lucis 를 완성하기 위해 서지...!
+/e
+
+/s
+Awesome job, Twins!
+/t
+정말 놀라운걸!
+/e
+
+/s
+Just as there's no way to stop the flowing wind...
+/t
+시간의 흐름을 강제로 멈출 수 없듯이...
+/e
+
+/s
+the world will keep changing no matter what you do.
+/t
+내 의지와 상관없이 세상은 계속해서 변하고 있다.
+/e
+
+/s
+Nothing can be taken back.
+/t
+이미 일어난 일은 되돌릴 수 없다.
+/e
+
+/s
+But that's why we're able to recover from our mistakes!
+/t
+하지만 우리에겐 실수를 만회할 수 있는 기회가 있다!
+/e
+
+/s
+The important thing is what we desire in the present.
+/t
+중요한 건 우리가 어떻게 헤쳐 나가냐가 아닐까.
+/e
+
+/s
+Isn't that right, Grato?
+/t
+그렇지 않나요 Grato씨?
+/e
+
+/s
+...I'm back. He rescued us, just like you said. Papa.
+/t
+...아빠 드디어 돌아왔어요. 아빠가 말했듯이 오빠가 절 구해줬어요.
+/e
+
+/s
+Roy's our big brother, huh? Sounds kinda funny.
+/t
+Roy가 우리 오빠가 되었어요. 참 웃긴 일이죠.
+/e
+
+/s
+I was pretty suprised when he suddenly blurted out "We're family!"
+/t
+사실 "우린 가족이니까!" 이 말을 들었을 땐 꽤 놀랐어요.
+/e
+
+/s
+He's not even related to us by blood!
+/t
+피도 한 방울 안 섞였으면 그런 말을 하다니.
+/e
+
+/s
+But that's all right. I learned what i lack.
+/t
+하지만 맞아요. 저에게 필요한 걸 알게 되었는걸요.
+/e
+
+/s
+And Papa, he did what we thought only you could do, after all.
+/t
+그리고 아빠, Roy가 진정으로 가족이 뭔지 보여주고 있어요
+/e
+
+/s
+It was no ordinary effort.
+/t
+비록 허점 투성이지만요.
+/e
+
+/s
+Maybe, even though we were obviously your daughters...
+/t
+분명 우린 아빠 딸 들이지만....
+/e
+
+/s
+...he's the one that resembles you most.
+/t
+Roy도 우리 아빠가 아닐까요
+/e
+
+/s
+...i'll come again, okay? Next time, with all three of us...
+/t
+나중에 다시 올게요, 다음에는 다 같이 만나는 거예요.
+/e
+
+/s
+...Papa, I wonder if we're alive right now.
+/t
+...아빠, 제가 아직도 살아 있다는 게 믿기지 않아요.
+/e
+
+/s
+Or are we...
+/t
+아니면 우리 모두가 말이죠...
+/e
+
+/s
+...Do you remember what my sister said back then?
+/t
+...그때 누나가 했던 말 기억나?
+/e
+
+/s
+"We were equal parts of a whole."
+/t
+우리는 완전히 동일하다.
+/e
+
+/s
+Oh, right, she said something along those lines...
+/t
+맞어, 그런 말을 했었지.
+/e
+
+/s
+That was the truth.
+/t
+맞는 말이야.
+/e
+
+/s
+Just one year ago, we looked and thought almost exactly the same.
+/t
+불과 1년 전만 하더라도, 우린 너무 비슷했어.
+/e
+
+/s
+We could have swapped places if we'd wanted to.
+/t
+그래서 서로 바꿔도 아무도 모를 정도였어.
+/e
+
+/s
+We were only pretending to be sisters.
+/t
+그저 자매인 척하고 있었을 뿐이었었어.
+/e
+
+/s
+...And now we can't ever go back.
+/t
+하지만 이젠 아냐.
+/e
+
+/s
+If...If back then...
+/t
+만약... 만약 그때
+/e
+
+/s
+Papa had chosen her instead, could you still have done it?
+/t
+아빠가 날 대신 누나를 선택했으면 어떻게 되었을까?
+/e
+
+/s
+Would we be standing here like this now?
+/t
+이렇게 다 같이 모일 수 있었을지 궁금해.
+/e
+
+/s
+Of course! I would've just come for you with Esto instead.
+/t
+물론이지! 무슨 일이 있더라도 너희 둘을 구해줬을 거야!
+/e
+
+/s
+I see...
+/t
+알겠어...
+/e
+
+/s
+It'd be the same thing.
+/t
+똑같이 구해줬을 거야.
+/e
+
+/s
+So if something happens to me down the line, I want both of you to come help me, okay?
+/t
+그러니까 뭔 일이 있으면 다 같이 도와주는 거다?
+/e
+
+/s
+...Okay, I promise.
+/t
+...알겠어, 약속할게.
+/e
+
+/s
+Haha, thanks!
+/t
+하하하! 고마워!
+/e
+
+/s
+I never thought the three of us would be coming here like this.
+/t
+그건 그렇고 여기에 올 거라곤 생각도 못 했어.
+/e
+
+/s
+I...was too scared to come before.
+/t
+난... 그동안 무서워서 못 왔어.
+/e
+
+/s
+I couldn't bear the fact that everyone...that he had died.
+/t
+Grato 씨가 죽었다는 사실을 받아들일 수 없었어.
+/e
+
+/s
+This is my first time here, too.
+/t
+나도 여긴 처음 와.
+/e
+
+/s
+I couldn't show myself like this to my relatives during the funeral.
+/t
+장례식인데 이런 모습을 친척들에게 보여줄 순 없었어.
+/e
+
+/s
+You sure do care a lot about your appearance, Fio.
+/t
+오 외모에 많이 신경 쓰는걸.
+/e
+
+/s
+How rude. I'd prefer to call it an adult concern.
+/t
+실례야, 어른을 배려하는 거라고.
+/e
+
+/s
+My, that sounded pretty out of character!
+/t
+옹, 원래 그런 성격이셨어?
+/e
+
+/s
+What are you...?
+/t
+무 무슨 말이에요.
+/e
+
+/s
+Anyway, Sis...
+/t
+아무튼 언니.
+/e
+
+/s
+Right, right, the Lucis system's power is off-limits from now on.
+/t
+알아, 이제부터 Lucis 시스템은 더 이상 쓰지 않을 거야.
+/e
+
+/s
+Wait, we're talking about thos now?
+/t
+엑, 왜 그런 결론이 나오는 거야?
+/e
+
+/s
+Yes. The ability to change the world however we choose
+/t
+이 힘으로 우리가 원하는 대로 세상을 바꿀 수 있을 거야.
+/e
+
+/s
+would mean we were rejecting everything that is.
+/t
+하지만 사용하지 않을 거야.
+/e
+
+/s
+We want to be part of this world, as humans.
+/t
+그저 평범한  사람으로 지내고 싶어.
+/e
+
+/s
+See, even if it was something small, we don't know how far-reaching the effects would be. Understand?
+/t
+조금이라도 사용했다간 무슨 일이 벌어질지 모르거든.
+/e
+
+/s
+Well, barring any major incidents where we absolutely need to do it, anyway.
+/t
+음, 그래도 써야 할 땐 써야 하지 않을까.
+/e
+
+/s
+Uh-huh. You both seem to taking this seriously.
+/t
+어어 거기 둘 너무 심각해지는 거 아니야?
+/e
+
+/s
+And just maybe you should try to take things a bit more seriously.
+/t
+그런 거 말고 신경 써야 할 건 따로 있지 않아?
+/e
+
+/s
+You failed another interview, didn't you?
+/t
+면접 완전히 망쳤잖아?
+/e
+
+/s
+Would you quit talking about that!?
+/t
+그 이야긴 꺼내주지 말을 래!?
+/e
+
+/s
+Don't worry about it! Alright, time to get some shopping done and head home.
+/t
+걱정마! 다 잘될거야! 쇼핑이나 하러 가자고!
+/e
+
+/s
+Right. Now that you mention it, I'm so hungry I could eat a horse.
+/t
+그래! 알게 뭐람, 너무 배고픈 걸 뭐든지 다 먹을 수 있겠어.
+/e
+
+/s
+No snacking on the way home!
+/t
+딴짓하지 말고 그냥 집에나 가자고.
+/e
+
