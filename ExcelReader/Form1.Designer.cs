@@ -59,7 +59,7 @@
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.Size = new System.Drawing.Size(520, 291);
             this.richTextBox1.TabIndex = 1;
-            this.richTextBox1.Text = "";
+            this.richTextBox1.Text = "울티마 usecode 변환기";
             // 
             // cbTitanfall
             // 
@@ -128,6 +128,7 @@
             this.tbOriginal.Name = "tbOriginal";
             this.tbOriginal.Size = new System.Drawing.Size(100, 21);
             this.tbOriginal.TabIndex = 8;
+            this.tbOriginal.Text = "4";
             // 
             // label4
             // 
@@ -144,6 +145,7 @@
             this.tbTransIndex.Name = "tbTransIndex";
             this.tbTransIndex.Size = new System.Drawing.Size(100, 21);
             this.tbTransIndex.TabIndex = 10;
+            this.tbTransIndex.Text = "5";
             // 
             // Form1
             // 
@@ -164,7 +166,7 @@
             this.Controls.Add(this.button1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
-            this.Text = "DB 변환";
+            this.Text = "울티마 USECODE 변환";
             this.ResumeLayout(false);
             this.PerformLayout();
 

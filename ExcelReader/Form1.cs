@@ -130,11 +130,34 @@ namespace ExcelReader
             return value + 1;
         }
 
+        private void ChangeToke(ref string value)
+        {
+            value = value.Replace("\'\"" , "\"");
+        }
+
+        private void SaveFile(string value, string file)
+        {
+            using (StreamWriter newTask = new StreamWriter(@"./File/" + file , false, Encoding.ASCII))
+            {
+                newTask.Write(value);
+            }
+        }
+
+        private void GetString(ref string value , IRow row, int index)
+        {
+            var cell = row.GetCell(index);
+
+            if(cell != null && cell.CellType == CellType.String)
+            {
+                value = cell.StringCellValue;
+            }
+        }
+
         private void MakeDB(string path, string filter)
         {
             List<string> missingList = new List<string>();
 
-
+            
             if (path != "")
             {
                 var workbook = GetWorkbook(path, filter);
@@ -153,106 +176,90 @@ namespace ExcelReader
                     sheet = workbook.GetSheet(dataSheet);
                 }
             
-                if (isActiveExtra)
-                {
-                    var sheet2 = workbook.GetSheet("정보 시트");
-                    //var sheet2 = workbook.GetSheetAt(2);
-                    GetNames(sheet2);
-                }
 
                 string boxText = sheet.SheetName + " / " + sheet.LastRowNum;
-          
 
-                using (StreamWriter newTask = new StreamWriter(@"./" + fileName + ".txt", false))
+
+
+                string result = "";
+                bool isFirst = true;
+                string file = "";
+
+                try
                 {
-                    for (int i = 0; i <= sheet.LastRowNum; i++)
+                    for (int i = 1; i <= sheet.LastRowNum; i++)
                     {
                         IRow curRow = sheet.GetRow(i);
                         List<ICell> cellList = curRow.Cells;
-                        if(cellList.Count > 0 && cellList.Count > originalIndex && cellList.Count > transIndex )
+
+                        string original = "";
+
+                        GetString(ref original, curRow, originalIndex);
+                   
+
+                        ChangeToke(ref original);
+                        string translate = original;
+
+                        string value = "";
+                        GetString(ref value, curRow, transIndex);
+
+                        if (value.Trim() != "")
                         {
-                            if(cellList[originalIndex].CellType != CellType.String)
-                            {
-                                continue;
-                            }
-                            string original = cellList[originalIndex].StringCellValue;
-                            string translate = original;
-                         
-
-                             
-                            string value = cellList[transIndex].StringCellValue;
-
-                            if (value.Trim() != "")
-                            {
-                                translate = value;
-                            }
-                            else if(googleIndex != -1)
-                            {
-                                translate = cellList[googleIndex].StringCellValue;
-                               
-                                if(isShowTransMissing)
-                                {
-                                    translate = "[미번역]" + translate;
-                                }
-                            }
-
-                            //이름 붙이기 기능.
-                            if (isActiveExtra)
-                            {
-                                string[] keys = original.Split(':');
-
-                                if (keys.Length > 1)
-                                {
-                                    string name = keys[0];
-
-                                    if (nameDic.ContainsKey(name))
-                                    {
-                                        name = nameDic[name];
-                                    }
-                                    else
-                                    {
-                                        if (!missingList.Contains(name))
-                                        {
-                                            missingList.Add(name + " / " + original);
-                                        }
-
-                                    }
-
-                                    translate = name + ": " + translate;
-                                }
-                            }
-
-                            if (original.Trim() != "")
-                            {
-                                newTask.WriteLine(@"/s");
-                                newTask.WriteLine(original);
-                                newTask.WriteLine(@"/t");
-                                newTask.WriteLine(translate);
-                                newTask.WriteLine(@"/e" + System.Environment.NewLine);
-
-
-                                boxText += "\n" + original + "   " + translate;
-                            }
+                            translate = value;
                         }
-                
+
+                        ChangeToke(ref translate);
+
+
+
+                        var cell = curRow.GetCell(2);
+
+
+                        if (cell != null)
+                        {
+                            if (cell.StringCellValue != file)
+                            {
+                                if (file != "")
+                                {
+                                    SaveFile(result, file);
+                                }
+
+                                file = cell.StringCellValue;
+                                result = translate;
+                                boxText += "\n" + file;
+                            }
+                            else
+                            {
+                                result += System.Environment.NewLine + translate;
+                            }
+
+                        }
+                        else
+                        {
+                            break;
+                        }
+
+
+
+
                     }
-                }
 
-                if(isActiveExtra)
-                {
-                    
-                    boxText = "";
-
-                    for(int i = 0; i < missingList.Count; i++)
+                    //마지막 결과를 저장한다.
+                    if (file != "")
                     {
-                        boxText = boxText + missingList[i] + System.Environment.NewLine;
+                        boxText += "\n" + file;
+                        SaveFile(result, file);
                     }
-                    
+                    richTextBox1.Text = boxText;
+                    MessageBox.Show("성공! " + fileName + ".txt를 확인하세요");
                 }
-
-
-                richTextBox1.Text = boxText;
-                MessageBox.Show("성공! " + fileName + ".txt를 확인하세요");
+                catch(Exception e)
+                {
+                    richTextBox1.Text = boxText;
+                    MessageBox.Show("에러발생 ! " + e.ToString());
+                }
+                
+            
 
 
             }
