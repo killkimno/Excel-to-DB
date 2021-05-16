@@ -179,7 +179,7 @@ namespace ExcelReader
                             string translate = original;
                          
 
-
+                             
                             string value = cellList[transIndex].StringCellValue;
 
                             if (value.Trim() != "")
