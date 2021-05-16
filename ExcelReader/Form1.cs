@@ -137,7 +137,7 @@ namespace ExcelReader
 
         private void SaveFile(string value, string file)
         {
-            using (StreamWriter newTask = new StreamWriter(@"./File/" + file , false, Encoding.ASCII))
+            using (StreamWriter newTask = new StreamWriter(@"./File/" + file , false, Encoding.Default))
             {
                 newTask.Write(value);
             }
