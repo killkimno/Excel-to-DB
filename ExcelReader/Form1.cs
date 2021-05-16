@@ -251,7 +251,7 @@ namespace ExcelReader
                         SaveFile(result, file);
                     }
                     richTextBox1.Text = boxText;
-                    MessageBox.Show("성공! " + fileName + ".txt를 확인하세요");
+                    MessageBox.Show("성공! File 폴더에서 확인하세요");
                 }
                 catch(Exception e)
                 {
